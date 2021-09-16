@@ -955,6 +955,7 @@ img {
 
 .first-section-thumb {
   position: relative;
+  overflow: hidden;
 }
 
 .first-section-thumb::before {
@@ -963,11 +964,6 @@ img {
   content: "";
   width: 100%;
   height: 100%;
-}
-
-.second-list-element-thumb {
-  position: relative;
-  overflow: hidden;
 }
 
 .second-list-element:hover .first-section-thumb::before,
