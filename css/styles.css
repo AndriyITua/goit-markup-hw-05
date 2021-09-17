@@ -26,7 +26,6 @@ img {
   padding-right: 15px;
   width: 1200px;
   margin: 0 auto;
-  outline: 2px solid tomato;
 }
 
 /* Шапка сторінки studio */
@@ -166,6 +165,8 @@ img {
   padding-top: 20px;
   padding-bottom: 20px;
   fill: var(--primary-text-color);
+
+  transition: var(--time-animation) var(--cubik-transform);
 }
 
 .tel-style .header-tel:hover,
@@ -236,6 +237,8 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
+
+  transition: var(--time-animation) var(--cubik-transform);
 }
 
 .first-section-img {
@@ -591,6 +594,8 @@ img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+
+  transition: var(--time-animation) var(--cubik-transform);
 }
 
 .networks-link:hover .network-icon,
@@ -639,6 +644,8 @@ img {
   border-radius: 4px;
   padding: 16px 32px;
   display: flex;
+
+  transition: var(--time-animation) var(--cubik-transform);
 }
 
 .customers-item {
@@ -653,6 +660,8 @@ img {
 .cusromer-icon {
   display: flex;
   fill: #afb1b8;
+
+  transition: var(--time-animation) var(--cubik-transform);
 }
 
 .cusromer-icon:hover {
@@ -709,7 +718,6 @@ img {
 }
 
 .join-block {
-  outline: 2px solid green;
   align-items: center;
   justify-content: center;
   padding-top: 18px;
@@ -747,6 +755,8 @@ img {
   height: 44px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
+
+  transition: var(--time-animation) var(--cubik-transform);
 }
 
 .join-block-link:hover,
@@ -785,7 +795,6 @@ img {
 
 .footer-left {
   margin-right: 70px;
-  outline: 2px solid green;
 }
 
 .footer {
@@ -819,6 +828,8 @@ img {
   display: flex;
   padding-top: 20px;
   padding-bottom: 20px;
+
+  transition: var(--time-animation) var(--cubik-transform);
 }
 
 .page-header .header-style {
@@ -860,6 +871,8 @@ img {
   padding-top: 20px;
   padding-bottom: 20px;
   fill: var(--primary-text-color);
+
+  transition: var(--time-animation) var(--cubik-transform);
 }
 
 .tel-style-portfolio .header-tel:hover,
@@ -921,6 +934,8 @@ img {
   border: 1px solid #f5f4fa;
   border: none;
   border-radius: 4px;
+
+  transition: var(--time-animation) var(--cubik-transform);
 }
 
 .first-section-portfolio .btn:hover,
@@ -1058,6 +1073,8 @@ img {
 .page-footer .footer-tel {
   color: var(--support-text-color);
   text-decoration: none;
+
+  transition: var(--time-animation) var(--cubik-transform);
 }
 
 .page-footer-portfolio .webstudio {
@@ -1078,5 +1095,4 @@ img {
 
 .footer-left-portfolio {
   margin-right: 70px;
-  outline: 2px solid green;
 }
